@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tipo Equipos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+  <main id="board" aria-label="Imagen con puntos interactivos">
+    <!-- Cambia la ruta si tu imagen tiene otro nombre -->
+    <img id="base" src="img/Tipos Equipo.png" alt="Imagen base" />
+
+    <!-- Capas superpuestas -->
+    <div id="hotspots" aria-live="polite"></div>
+    <div id="actions" aria-label="Botones de acción"></div>
+    <div id="coords" hidden></div>
+  </main>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
